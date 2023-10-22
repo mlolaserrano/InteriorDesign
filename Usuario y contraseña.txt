@@ -1,0 +1,14 @@
+mailtrap:
+
+mail: mlolaserrano1@icloud.com
+
+contraseña: Lola1234
+
+
+Log In InteriorDesign:
+
+usuario: lola
+contraseña: 1234
+
+usuario: flavia
+contraseña: 1234

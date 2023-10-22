@@ -1,0 +1,304 @@
+/* Layout */
+
+/* Menú */
+
+.navbar-nav .nav-link:hover {
+  color: #318f49;
+  transform: scale(1.1);
+  font-weight: 500;
+}
+
+
+
+/* footer */
+
+.footer {
+  background-color: #e2ece4;
+  padding: 9px;
+
+}
+
+.footer a:hover {
+  color: #318f49;
+
+}
+
+
+.redes-sociales {
+  display: flex; 
+  align-items: center; 
+  margin-left: 15%;
+  margin-top: 30px;
+}
+
+.redes-sociales a {
+  margin-right: 30px; 
+}
+
+.redes-sociales-icon {
+  width: 30px; 
+  height: 30px;
+}
+
+
+
+
+/* botones */
+
+.btn {
+  background-color: #ecddd3;
+  color: black;
+  border-color: #ecddd3;
+}
+
+.btn a {
+  background-color: #ecddd300;
+  color: rgb(255, 255, 255);
+  border-color: #ecddd3;
+  text-decoration: none;
+}
+
+
+.btn a:hover {
+  background-color: #f2975b00;
+  color: black;
+  border-color: #ecddd3;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #f2985b;
+  border-color: #f2985b;
+  transform: scale(1.1);
+
+}
+
+
+/* Index */
+
+h2.text-center.mb-4 {
+  color: #14552f;
+}
+
+.index {
+  color: #14552f;
+}
+
+.fondo {
+  background-color: #f8f2ee;
+  padding: 1px;
+
+}
+
+
+
+/* login */
+
+.pagina-login {
+  background-image: url('https://factoriacultural.es/wp-content/uploads/2023/08/1643616844683.jpg');
+  background-size: cover;
+}
+
+.admin {
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+  max-width: 400px;
+  background-color: #86895d;
+  border-radius: 25px;
+  color: white;
+
+}
+
+
+/* contactar */
+
+.msj {
+  color: rgb(10, 121, 43); 
+  transition: color 0.3s; 
+}
+
+.msj:hover {
+  color: green; 
+}
+
+.titulo{
+  text-align: left;
+  color: #14552f;
+}
+
+
+
+/* admin */
+
+
+.nuev {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+
+.nuev .btn-primary {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+
+.list-group {
+  list-style-type: decimal;
+  margin-top: 20px;
+}
+
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+
+.list-group-item img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.list-group-item h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+
+.list-group-item p {
+  margin: 10px 0;
+}
+
+
+.botones-container button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+
+.botones-container img {
+  width: 20px;
+  height: 20px;
+}
+
+.botones-container button:hover {
+  color: #007BFF;
+}
+
+
+.botones-container button:active {
+  transform: scale(0.9);
+}
+
+h2.tabla {
+  margin-right: 35px;
+}
+
+.container {
+  width: 100%;
+  text-align: left;
+}
+
+.botones-container {
+  width: 100%;
+  text-align: right;
+}
+
+.editar,
+.cruz {
+  display: inline-block;
+}
+
+
+.cajita {
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+  max-width: 700px;
+  background-color: #00000000;
+  border-radius: 25px;
+}
+
+.nuev {
+
+  background-color: #d1e2d2;
+
+}
+
+/* editar */
+
+h4.editar{
+  
+  color: #14552f;
+}
+
+
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e5dde6;
+  border: 1px solid #c0a0c3;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ADD8E6;
+  border-radius: 5px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.checkbox-label input[type="checkbox"] {
+  margin-right: 10px;
+
+}
+
+.btn-primary {
+  background-color: #485096;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #008fb3;
+}
+
+h4 {
+  color: rgb(153, 45, 196);
+  margin-left: 35px;
+}
